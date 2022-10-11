@@ -1,0 +1,44 @@
+body {
+	margin: 2em auto;
+    max-width: 760px;
+    width: 65%;
+	background: white;
+	color: black;
+	font: 14px 'Helvetica Neue', Arial, sans-serif;
+}
+section {
+    clear: both;
+    margin-top: 3em;
+}
+li {
+    list-style-type: disc;
+}
+section > ul > li,
+header > ul > li {
+    list-style-type: none;
+    margin-bottom: .5em;
+}
+.headline-name {
+    border-bottom: 1px solid black;
+    padding-bottom: .5em;
+}
+.contact-column-left {
+    float: left;
+    padding: 0 1px;
+}
+.contact-column-right {
+    float: right;
+    padding: 0 1px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+  }
+
+
+.other {
+	/* width: 100px;
+	height: 200px;
+	background-color: red; */
+}
